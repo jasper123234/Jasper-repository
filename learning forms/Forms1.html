@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form Basics</title>
+</head>
+<body>
+<!-- REFERENCE LINKS -->
+<!-- http://www.w3schools.com/TAGs/att_input_type.asp -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input -->
+<!-- FORM TAG -->
+<!-- There is an opening form tag and closing form tag -->
+<!-- Every input inside the form tag is what gets 'saved' when you click submit -->
+<!-- In general, you will have one form tag and one submit, not multiples! -->
+<form>
+
+
+<h1>Log In</h1>
+<h2>Please Input your Password and Email</h2>
+<!-- INPUT TAG -->
+<!-- For the input tag, you can have many different attributes. Attributes are formated type='email' -->
+<!-- There are many type attributes you can select: text, email, name, password, color, etc. Each has different properties -->
+<input type="email" name="useremail" value="Email Here">
+<input type="password" name="password" value="Password">
+<!-- The most important attributes are name and value. The name and value are what gets saved by the form -->
+<!-- The name='' you add in the code -->
+<!-- The value='' can be added by you in the code OR added by the user, so sometimes there isn't a value attribute in the code -->
+<!-- INPUT TYPE SUBMIT -->
+<input type="submit" >
+<!-- The input type 'submit' makes the form collect all the data -->
+
+
+<h1>Choose a Color!</h1>
+<h2>Click on the Button when ready</h2>
+
+
+<!-- INPUT TYPE COLOR -->
+<input type="color" >
+<h2>Enter some Text!</h2>
+
+
+<!-- INPUT TYPE TEXT -->
+<input type="text" name="" value="Text goes here">
+<!-- notice how for the text type, the value shows up in the text box and can be replaced by user generated text -->
+
+
+
+
+<!-- notice how all these inputs are still within the one form tag, so every input WILL be grabbed -->
+<!-- it doesn't matter where the submit tag is in the page, it will still grab everything contained by the form -->
+</form>
+
+
+
+
+</body>
+</html>
+
+
+

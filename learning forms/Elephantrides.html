@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         body {
+                font-family: Libertinus Keyboard, sans-serif;
+                background-color: rgb(152, 209, 131);
+                color: rgb(45, 128, 0);
+            }
+            h1 {
+                color: rgb(255, 255, 0);
+            }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elephant rides</title>
+</head>
+<body>
+    <h1>Book your elephant ride today</h1>
+    <img src="elephant.jpg" width="200"> <img src="annotation 2025-09-03 112048.jpg" width="200" height="200"><br>
+    <blockquote><em>"I love riding on elephants, its so fun"-Tajin "Broheem" Knight</em></blockquote>
+    <!--this is where the form starts-->
+    <forms>
+        <form action="results.html" method="get"></form>
+        <label for="email"> Enter your email:</label>
+        <input type="email" name="email" id="email" placeholder="email"><br>
+        <label for="password"> Enter your password:</label>
+        <input type="password" name="passw" id="passw"><br>
+        <label for="size"> What size elephant do you want to ride?</label>
+        <select id="size"name="size">
+            <option>xxl</option>
+            <option>large</option>
+            <option>small</option>
+        </select><br>
+        <h3>How much will you tip?</h3>
+        <label for="1">1 peanut</label><input type="radio" name="tips" id="1" value="1peanut">
+        <label for="2">2 peanut</label><input type="radio" name="tips" id="2" value="2peanut">
+        <label for="3">3 peanut</label><input type="radio" name="tips" id="3" value="3peanut">
+        <p><b>your contribution is appreciated!</b></p>
+        <input type="submit">
+    </forms>
+</body>
+</html>

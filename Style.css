@@ -1,0 +1,25 @@
+body{
+           
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+            text-align: center;
+            background: blueviolet;
+        }
+        h1{
+            background-color: blueviolet;
+             background-color: crimson; 
+        }    
+        .dad{
+            color: antiquewhite;
+            background-color: chartreuse;
+        }
+        div{
+            color: blue;
+            background:scroll;
+        }
+        span{
+         background-color:rgb(255, 112, 226)
+        
+        }
+        .Name{
+            text-align: left;
+     }

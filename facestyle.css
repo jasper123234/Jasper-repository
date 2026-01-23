@@ -1,0 +1,137 @@
+body{
+            background: yellow;
+        }
+        .eye1{
+            background: white;
+            padding: 40px;
+            margin: 10px;
+            position: relative;
+            top: 20px;
+            left: 0px;
+            bottom: 10px;
+            width: 150px;
+            height: 150px;
+            
+        }
+        .eye2{
+            background: white;
+            padding: 40px;
+            margin: 10px;
+            position: relative;
+            top: -220px;
+            left: 250px;
+            bottom: 10px;
+            width: 150px;
+            height: 150px;
+            
+        }
+        .pupil1{
+            background: rgb(0, 0, 0);
+            padding: 40px;
+            margin: 10px;
+            position: relative;
+            top: -420px;
+            left: 50px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            
+        }
+        .pupil2{
+            background: rgb(0, 0, 0);
+            padding: 40px;
+            margin: 10px;
+            position: relative;
+            top: -560px;
+            left: 300px;
+            bottom: 10px;
+            width: 50px;
+            height: 50px;
+            
+        }
+        .mouth{
+            background: rgb(0, 0, 0);
+            padding: 40px;
+            margin: 10px;
+            position: relative;
+            top: -300px;
+            left: 00px;
+            bottom: 10px;
+            width: 400px;
+            height: 50px;
+            
+        }
+        .teeth1{
+            background: white;
+            padding: 40px;
+            margin: 10px;
+            position:relative;
+            width: 10px;
+            height: 10px;
+            top: -400px;
+            
+
+        }
+        .teeth2{
+            background: white;
+            padding: 40px;
+            margin: 10px;
+            position:relative;
+            width: 10px;
+            height: 10px;
+            top: -500px;
+            left:100px;
+            
+
+        }
+        .teeth3{
+            background: white;
+            padding: 40px;
+            margin: 10px;
+            position:relative;
+            width: 10px;
+            height: 10px;
+            top: -600px;
+            left:200px;
+            
+
+        }
+        .teeth4{
+            background: white;
+            padding: 40px;
+            margin: 10px;
+            position:relative;
+            width: 10px;
+            height: 10px;
+            top: -700px;
+            left:300px;
+            
+
+        }
+        .toungue{
+            background: rgb(255, 0, 0);
+            padding: 40px;
+            margin: 10px;
+            position:relative;
+            width: 80px;
+            height: 10px;
+            top: -710px;
+            left:300px;
+
+        }
+        .line{
+            background: rgb(0, 0, 0);
+            position:relative;
+            width: 10px;
+            height: 80px;
+            top: -810px;
+            left:400px;
+        }
+        .nose{
+          background: rgb(0, 0, 0);
+            position:relative;
+            width: 40px;
+            height: 80px;
+            top: -1200px;
+            left:250px;  
+        }

@@ -1,0 +1,18 @@
+body{
+    background: greenyellow;
+    font-family: cursive;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    color: darkblue;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px dashed darkblue;
+    font-style: italic;
+}
+img{
+    border-radius: 50%;
+    border: 5px solid darkblue;
+}

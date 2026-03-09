@@ -1,5 +1,7 @@
 import './App.css'
-import Practice from './Practice';
+import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
+import Lesson from './components/Lesson.jsx';
 function App() {
 
   const yourName = "jasper";
@@ -11,14 +13,16 @@ function App() {
 
     <div>
 
-      <h1>Hello, React!</h1>
+      <Header/>
 
       <h2>My name is {yourName}</h2>
 
       <p>I’m learning React in {currentYear}.</p>
 
       <p>This is my first React component!</p>
-<Practice/>fwe
+      <Lesson/>
+      <img src="mask.jpg" alt="Mask"></img>
+<Footer/>
     </div>
 
   );
